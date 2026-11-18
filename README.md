@@ -1,31 +1,27 @@
 # George Dharma
 
-**Corporate finance · Valuation · Python analysis**
+I'm an MSc International Finance candidate at IAE Aix-Marseille. My interests centre on valuation and M&A, and I'm pursuing investment banking and corporate finance roles in France.
 
-I'm an MSc International Finance candidate at IAE Aix-Marseille, based in France. My interests centre on investment banking, M&A and the financial decisions behind business growth.
-
-Here I share the Python work behind selected projects in my finance portfolio, covering interest-rate risk, option pricing and portfolio selection.
+[Connect on LinkedIn](https://www.linkedin.com/in/georgedharma/)
 
 ## Selected Python projects
 
-These projects explore investment and risk questions through reproducible analysis.
+Start with the report for the financial decision. Open the notebook to follow the calculations and test the assumptions.
 
-| Project | What it explores | Explore |
-| --- | --- | --- |
-| [Interest-rate curves and swap hedging](https://github.com/GeorgeDharma/interest-rate-curves-and-swap-hedging) | Building EUR interest-rate curves, valuing swaps and comparing hedges. | [Notebook](https://github.com/GeorgeDharma/interest-rate-curves-and-swap-hedging/blob/main/notebooks/analysis.ipynb) · [ZIP](https://github.com/GeorgeDharma/interest-rate-curves-and-swap-hedging/archive/refs/heads/main.zip) |
-| [Options pricing and hedging](https://github.com/GeorgeDharma/options-pricing-and-hedging) | Pricing European options and examining delta hedging with trading costs and model stresses. | [Notebook](https://github.com/GeorgeDharma/options-pricing-and-hedging/blob/main/notebooks/analysis.ipynb) · [ZIP](https://github.com/GeorgeDharma/options-pricing-and-hedging/archive/refs/heads/main.zip) |
-| [Industry momentum and portfolio selection](https://github.com/GeorgeDharma/industry-momentum-and-portfolio-selection) | Testing industry momentum with chronological strategy selection, trading costs and factor analysis. | [Notebook](https://github.com/GeorgeDharma/industry-momentum-and-portfolio-selection/blob/main/notebooks/analysis.ipynb) · [ZIP](https://github.com/GeorgeDharma/industry-momentum-and-portfolio-selection/archive/refs/heads/main.zip) |
+### [Designing a hedge for a euro swap portfolio](https://github.com/GeorgeDharma/interest-rate-curves-and-swap-hedging)
 
-Each repository includes a worked notebook, Python code, saved results, tests and instructions for running the analysis.
+With a €20m limit on hedge notional, the worst loss across the six shocks used to choose the swaps fell from €469k unhedged to €179k. The worst hedged loss across four additional shocks was €235k.
 
-## Tools and approach
+[Report (PDF)](https://github.com/GeorgeDharma/interest-rate-curves-and-swap-hedging/blob/main/docs/report.pdf) · [Python notebook](https://github.com/GeorgeDharma/interest-rate-curves-and-swap-hedging/blob/main/notebooks/analysis.ipynb) · [Download ZIP](https://github.com/GeorgeDharma/interest-rate-curves-and-swap-hedging/archive/refs/heads/main.zip)
 
-Python · SQL · R · Excel · Power BI
+### [Pricing and hedging a European put](https://github.com/GeorgeDharma/options-pricing-and-hedging)
 
-I focus on clear assumptions, transparent methods and explaining what the results mean.
+Switching from daily hedging to a 2.5-point delta trigger cut average trades per path from 249 to 84 in the base simulation. For the 100-contract position, the average loss in the worst 5% of outcomes rose by $32.
 
-## Connect
+[Report (PDF)](https://github.com/GeorgeDharma/options-pricing-and-hedging/blob/main/docs/report.pdf) · [Python notebook](https://github.com/GeorgeDharma/options-pricing-and-hedging/blob/main/notebooks/analysis.ipynb) · [Download ZIP](https://github.com/GeorgeDharma/options-pricing-and-hedging/archive/refs/heads/main.zip)
 
-Open to opportunities in investment banking, M&A and corporate finance in France.
+### [Sizing an industry momentum portfolio](https://github.com/GeorgeDharma/industry-momentum-and-portfolio-selection)
 
-[LinkedIn](https://www.linkedin.com/in/georgedharma/)
+In the 2010–2025 backtest, a portfolio with 25% in momentum returned 13.19% a year after costs, versus 12.71% for equal industry weights. The 95% interval for average excess return included zero.
+
+[Report (PDF)](https://github.com/GeorgeDharma/industry-momentum-and-portfolio-selection/blob/main/docs/report.pdf) · [Python notebook](https://github.com/GeorgeDharma/industry-momentum-and-portfolio-selection/blob/main/notebooks/analysis.ipynb) · [Download ZIP](https://github.com/GeorgeDharma/industry-momentum-and-portfolio-selection/archive/refs/heads/main.zip)
