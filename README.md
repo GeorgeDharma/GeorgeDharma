@@ -2,7 +2,7 @@
 
 I'm an MSc International Finance candidate at IAE Aix-Marseille. My interests centre on valuation and M&A, and I'm pursuing investment banking and corporate finance roles in France.
 
-When I build a financial model, I want to know which assumptions would make me change my decision.
+When I build a financial model, I want to know which assumptions would make me change my decision. My [finance portfolio](https://georgedharma.github.io/) includes a valuation of Legrand and a case study on how DSV financed its acquisition of Schenker.
 
 ## Selected Python projects
 
