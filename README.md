@@ -4,7 +4,7 @@
 
 I'm an MSc International Finance candidate at IAE Aix-Marseille, based in France. My interests centre on investment banking, M&A and the financial decisions behind business growth.
 
-My interest in problem solving began with robotics. I later taught myself Python and SQL, and now combine those skills with financial statement analysis and modelling.
+Here I share the Python work behind selected projects in my finance portfolio, covering interest-rate risk, option pricing and portfolio selection.
 
 ## Selected Python projects
 
